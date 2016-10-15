@@ -22,7 +22,7 @@ class CreateContactsTable extends Migration
             $table->string('phone');
             $table->string('address');
             $table->string('city');
-            $table->string('postcode');
+            $table->string('postcode')->nullable();
             $table->string('country');
             $table->string('photo');
             $table->boolean('favorite');
